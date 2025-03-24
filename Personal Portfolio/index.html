@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hariesh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec0f9104c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" width="400px" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <P>Software Engineer</P>
+                <h1>Hi,I'm <span>Hariesh</span><br>From Thanjavur</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------about------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="twoo.jpeg" height="300px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>
+                        I'm a dedicated Software Engineer with a passion for Development and Cloud Computing,with a background in Artificial Intelligence and Data Science.I'm skilled in problem solving and logical thinking.Currently,i'm improving my skills through cloud computing and engage my skills.Now I'm learn the cloud computing through the AWS platform.Outside of my work,i'm continously expanding my Knowledge through certifications and courses to stay up to date with  the latest trends.    
+                    </p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python,C,Java</span><br>Programming through the interfaces</li>
+                            <li><span>SQL</span><br>Database Accessing</li>
+                            <li><span>AWS(Solution Architect-Associate),GIT,Jupyter Notebook,Visual Studio Code</span><br>Tools and Platforms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>work Experience</span><br>Highly motivated skilled fresher had a basic experience with working through the college Projects</li>
+                            <li><span>3/7/2024 - 20/7/2024</span><br>Internship at Ether Infotech,Coimbatore</li>
+                            <li><span>11/2/2024 - 17/2/2024</span><br>Inplant training at Litz Technologies,Coimbatore</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>SSLC from Brindhavan Hr.Sec.School,Pattukottai</li>
+                            <li><span>2022</span><br>HSC from  Brindhavan Hr.Sec.School,Pattukottai</li>
+                            <li><span>2022 - 2026</span><br>B.Tech from KIT-KalaignarKarunanidhi Institute of Technology,Coimbatore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------projects--------------------------->
+    <div id="projects">
+        <h1 class="sub-tittle">My Projects</h1>
+        <div class="project-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>AI Desktop Virtual Assistant</h2>
+            <p>Engineered  an  AI-powered  desktop  assistant  with  Python  and  Tkinter,  incorporating  speech/text  recognition; reduced user task completion time by 30% through smart redirection to Spotify , YouTube, and Google.</p>
+            <a href="https://github.com/Hariesh2004/AI-virtual-Desktop">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Personal Portfolio Website</h2>
+            <p>Designed and launched a personal website with interactive project demos using HTML,CSS, and Javascript,achieving a 90% reduction in time spent explaining project functionality  during interviews.</p>
+            <a href="https://github.com/Hariesh2004/Portfolio">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Language Translator</h2>
+            <p>Designed and implemented a language translation tool using Python.The application supports all languages and leverage the models and to provide accurate and efficent translations</p>
+            <a href="https://github.com/Hariesh2004/Language-Translator">Learn more</a>
+        </div>
+    </div>
+    <!--------------------portfolio--------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image.png">
+                    <div class="layer">
+                        <h3>AI Desktop Virtual Assistant</h3>
+                        <p>Engineered  an  AI-powered  desktop  assistant  with  Python  and  Tkinter,  incorporating  speech/text  recognition; reduced user task completion time by 30% through smart redirection to Spotify , YouTube, and Google.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img4.png">
+                    <div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p> Designed and launched a personal website with interactive project demos using HTML,CSS, and Javascript,achieving a 90% reduction in time spent explaining project functionality  during interviews.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img3.png">
+                    <div class="layer">
+                        <h3>Language Translator</h3>
+                        <p>The Translator is build with the python language and it is used to translate the language from one to the other. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------contact------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> harieshvelmurugan2004@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 6382265055</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/hariestories?igsh=YWxnNzN0YWJka3Rj"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/hariesh-nv"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://x.com/HarieshNV?t=HkexmlpoOUq3sHLX3Getfg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="Hariesh_NV_Resume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Hariesh. </p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxNAWHUEGRaqWOeDEfvWAd369PxrwjSKezMapZ_h1PpaaHzlHZ5o9aSuOZYa39Invi62A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
